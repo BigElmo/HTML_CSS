@@ -1,3 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+/* .container {
+    width: 1140px;
+    margin: 0 auto;
+    border: 3px solid lightgreen; 
+} */
+
+.header {
+    border: 3px solid red;
+}
+
+.headerBlock {
+    border: 3px solid lime;
+}
+
+.headerMenu {
+    border: 3px solid blue;
+}
+
+.headerItem {
+    border: 3px solid brown;
+}
+
+.career {
+    border: 3px solid red;
+}
+
+.careerBlock {
+    border: 3px solid lime;
+}
+
+.careerItem {
+    border: 3px solid blue;
+}
+
+.hobby {
+    border: 3px solid red;
+}
+
+.footer {
+    border: 3px solid red;
+}
+
+.promotionBlock {
+    border: 3px solid lime;
+}
+
+.promotionItem {
+    border: 3px solid blue;
+}
+
+.footerContacts {
+    border: 3px solid lime;
+}
+
+.copyright {
+    border: 3px solid blue;
+}
+
+.contactUsBlock {
+    border: 3px solid orange;
+}
+
+.contacts {
+    border: 3px solid yellow;
+}
+
+.contactsBlock {
+    border: 3px solid green;
+}
+
+.contactsForm {
+    border: 3px solid blue;
+}
+
+.address {
+    border: 3px solid orange;
+}
+
+.phones {
+    border: 3px solid green;
+}
+
+.services {
+    border: 3px solid red;
+}
+
+.formName {
+    border: 3px solid yellow;
+}
+
+.formEmail {
+    border: 3px solid green;
+}
+
+.formText {
+    border: 3px solid orange;
+}
+
+.map {
+    border: 3px solid orange;
+}
+
+.mapBlock {
+    border: 3px solid blue;
+}
+
 body {
     font-family: sans-serif;
 }

@@ -12,14 +12,12 @@
 <body>
     <div class="header">
         <div class="headerBlock">
-            <div class="menu">
-                <ul>
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
-                </ul>
+            <div class="headerMenu">
+                <a href="index.html">Главная</a>
+                <a href="contacts.html">Контакты</a>
             </div>
         </div>
-        <div class="contactUsHeader">
+        <div class="contactUsBlock">
             <h2 class="h2">Contact Us</h2>
             <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, neque.</p>
         </div>
@@ -27,38 +25,43 @@
 
     <div class="contacts">
         <div class="contactsBlock">
-            <div class="contactsItem">
-                <img src="https://pngicon.ru/file/uploads/vinni-pukh-v-png.png" alt="Vinni_puh_png" width="300">
-                <div class="address">
-                    <h4 class="h4">Address</h4>
-                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>
-                <div class="phones">
-                    <h4 class="h4">Phone</h4>
-                    <ul>
-                        <li>+7-999-999-99-99</li>
-                        <li>+7-999-999-99-11</li>
-                    </ul>
-                </div>
-                <div class="services">
-                    <h4 class="h4">Online service</h4>
-                    <ul>
-                        <li><a href="https://www.google.com/" target="_blank">Гугл.ком</a></li>
-                        <li><a href="mailto:support@gmail.com" target="_blank">Написать Гуглу</a></li>
-                    </ul>
-                </div>
+            <img src="https://pngicon.ru/file/uploads/vinni-pukh-v-png.png" alt="Vinni_puh_png" width="300">
+            <div class="address">
+                <h4 class="h4">Address</h4>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
-            <div class="sendForm">
-                <form action="#">
-                    <h4 class="h4">Send us message</h4>
+            <div class="phones">
+                <h4 class="h4">Phone</h4>
+                <ul>
+                    <li>+7-999-999-99-99</li>
+                    <li>+7-999-999-99-11</li>
+                </ul>
+            </div>
+            <div class="services">
+                <h4 class="h4">Online service</h4>
+                <ul>
+                    <li><a href="https://www.google.com/" target="_blank">Гугл.ком</a></li>
+                    <li><a href="mailto:support@gmail.com" target="_blank">Написать Гуглу</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contactsForm">
+            <form action="#">
+                <h4 class="h4">Send us message</h4>
+                <div class="formName">
                     <label for="name">Full Name</label>
                     <input class="input" type="text" placeholder="Андрей" id="name"><br>
+                </div>
+                <div class="formEmail">
                     <label for="email">Email</label>
                     <input class="input" type="email" placeholder="example@example.com" id="email"><br>
-                    <textarea class="input" cols="40" rows="5" placeholder="Message"></textarea><br>
-                    <button class="button" type="submit">Submit</button><br>
-                </form>
-            </div>
+                </div>
+                <div class="formText">
+                    <label for="text">Message</label>
+                    <textarea class="input" cols="40" rows="5" placeholder="Message" id="text"></textarea><br>
+                </div>
+                <button class="button" type="submit">Submit</button><br>
+            </form>
         </div>
     </div>
 
@@ -71,16 +74,14 @@
     </div>
 
     <div class="footer">
-        <div class="promoteBlock">
-            <div class="promoteItem">
-                <h3 class="h3">Пятый заголовок</h3>
+        <div class="promotionBlock">
+            <div class="promotionItem">
+                <h3 class="h3">Хотите со мной работать?</h3>
                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cumque.</p>
             </div>
         </div>
-        <div class="line">
-            <hr>
-        </div>
-        <div class="contactsBlock">
+        <hr>
+        <div class="footerContacts">
             <ul>
                 <li>Lorem ipsum dolor sit amet.</li>
                 <li>+7-999-999-99-99</li>
