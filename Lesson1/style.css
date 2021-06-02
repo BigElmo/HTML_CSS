@@ -1,3 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    border: 3px solid navy; 
+}
+
+.header {
+    border: 3px solid red;
+}
+
+.headerMenu {
+    display: flex;
+    list-style-type: none;
+    border: 3px solid blue;
+}
+
+.headerItem {
+    border: 3px solid brown;
+}
+
+.welcomeH1 {
+    width: 510px;
+}
+
+.welcomeText {
+    width: 425px;
+}
+
+.career {
+    border: 3px solid red;
+}
+
+.careerBlock {
+    display: flex;
+    justify-content:space-between;
+    border: 3px solid lime;
+}
+
+.careerItem {
+    width: 359px;
+    border: 3px solid blue;
+}
+
+.hobby {
+    border: 3px solid violet;
+}
+
+.footer {
+    border: 3px solid red;
+}
+
+.promotionItem {
+    width: 425px;
+    border: 3px solid blue;
+}
+
+.promotionHeader {
+    width: 340px;
+}
+
+.footerBlock {
+    border: 3px solid lime;
+}
+
+.footerItem {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid red;
+}
+
+.copyright {
+    border: 3px solid blue;
+}
+
+.contactUsBlock {
+    border: 3px solid orange;
+}
+
+.contacts {
+    display: flex;
+    border: 3px solid yellow;
+}
+
+.contactsBlock {
+    flex-grow: 1;
+    border: 3px solid green;
+}
+
+.contactsForm {
+    flex-grow: 1;
+    border: 3px solid blue;
+}
+
+.address {
+    border: 3px solid orange;
+}
+
+.phones {
+    border: 3px solid green;
+}
+
+.services {
+    border: 3px solid red;
+}
+
+.formName {
+    border: 3px solid yellow;
+}
+
+.formEmail {
+    border: 3px solid green;
+}
+
+.formText {
+    border: 3px solid orange;
+}
+
+.mapBlock {
+    display: flex;
+    border: 3px solid green;
+}
+
+.mapItem {
+    flex-grow: 1;
+    border: 3px solid blue;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -10,6 +142,7 @@ body {
     font-size: 64px;
     color: #1F3F68;
 }
+
 .h2 {
     font-weight: 500;
     font-size: 44px;
