@@ -4,7 +4,7 @@
     }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -63,42 +63,188 @@
     margin-top: 71px;
 }
 
-/* .career {
-} */
+.career {
+    padding-top: 64px;
+}
+
+.career_heading {
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
 
 .careerBlock {
     display: flex;
     justify-content:space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .careerItem {
+    display: flex;
+    flex-direction: column;
     width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;    
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
 }
 
-/* .hobby {
-} */
+.card_img {
+    align-self: center;
+    margin-bottom: 51px;
+}
 
-/* .footer {
-} */
+.card_heading {
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+
+.card_link {
+    font-size: 14px;
+    line-height: 30px;    
+    letter-spacing: 0.05em;    
+    color: #5A98D0;
+    text-decoration: none;
+}
+
+.hobby_heading {
+    font-weight: 300;
+    line-height: 46px;    
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.hobby_text {
+    font-size: 16px;
+    line-height: 26px;    
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    width: 75%;
+    margin: 32px auto 64px;
+}
+
+.hobby_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 112px;
+}
+
+.hobby_item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.hobby_item_margin {
+    margin-right: 32px;
+}
+
+.hobby_img {
+    width: 100%;
+}
+
+.item1_text {
+    font-size: 32px;
+    line-height: 46px;    
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.item2_text {
+    font-size: 28px;    
+    line-height: 46px;    
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.footer {
+    height: 657px;
+    background: #316099;
+    padding-top: 91px;
+}
+
+.promotion_block {
+    display: flex;
+    justify-content: space-between;
+}
 
 .promotionItem {
     width: 425px;
 }
 
 .promotionHeader {
-    width: 340px;
+    font-size: 36px;            
+    width: 340px;    
+    line-height: 46px;    
+    letter-spacing: 0.05em;    
+    color: #FFFFFF;
+    font-weight: normal;
+    margin-bottom: 32px;
 }
 
-/* .footerBlock {
-} */
+.lets_talk {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;    
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #5A98D0;
+    display: inline-block;
+    align-self: center;
+    padding: 15px 80px;
+}
+
+.copyright {
+    font-size: 16;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.footer_hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-top: 96px;
+    margin-bottom: 64px;
+}
 
 .footerItem {
     display: flex;
     justify-content: space-between;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;    
+    letter-spacing: 0.05em;    
+    color: #FFFFFF;
+    margin-bottom: 64px;
+    list-style-position: inside;
 }
 
-/* .copyright {
-} */
+.mailto {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 /* .contactUsBlock {
 } */
