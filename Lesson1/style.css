@@ -6,22 +6,22 @@
 .container {
     width: 1140px;
     margin: 0 auto;
-    border: 3px solid navy; 
 }
 
-.header {
-    border: 3px solid red;
-}
+/* .header {
+} */
+
+/* .headerBlock {
+} */
 
 .headerMenu {
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
-    border: 3px solid blue;
 }
 
-.headerItem {
-    border: 3px solid brown;
-}
+/* .headerItem {
+} */
 
 .welcomeH1 {
     width: 510px;
@@ -31,103 +31,85 @@
     width: 425px;
 }
 
-.career {
-    border: 3px solid red;
-}
+/* .career {
+} */
 
 .careerBlock {
     display: flex;
     justify-content:space-between;
-    border: 3px solid lime;
 }
 
 .careerItem {
     width: 359px;
-    border: 3px solid blue;
 }
 
-.hobby {
-    border: 3px solid violet;
-}
+/* .hobby {
+} */
 
-.footer {
-    border: 3px solid red;
-}
+/* .footer {
+} */
 
 .promotionItem {
     width: 425px;
-    border: 3px solid blue;
 }
 
 .promotionHeader {
     width: 340px;
 }
 
-.footerBlock {
-    border: 3px solid lime;
-}
+/* .footerBlock {
+} */
 
 .footerItem {
     display: flex;
     justify-content: space-between;
-    border: 3px solid red;
 }
 
-.copyright {
-    border: 3px solid blue;
-}
+/* .copyright {
+} */
 
-.contactUsBlock {
-    border: 3px solid orange;
-}
+/* .contactUsBlock {
+} */
 
 .contacts {
     display: flex;
-    border: 3px solid yellow;
 }
 
 .contactsBlock {
     flex-grow: 1;
-    border: 3px solid green;
 }
 
 .contactsForm {
     flex-grow: 1;
-    border: 3px solid blue;
 }
 
-.address {
-    border: 3px solid orange;
-}
+/* .address {
+} */
 
-.phones {
-    border: 3px solid green;
-}
+/* .phones {
+} */
 
-.services {
-    border: 3px solid red;
-}
+/* .services {
+} */
 
-.formName {
+/* .formName {
     border: 3px solid yellow;
-}
+} */
 
-.formEmail {
+/* .formEmail {
     border: 3px solid green;
-}
+} */
 
-.formText {
+/* .formText {
     border: 3px solid orange;
-}
+} */
 
 .mapBlock {
     display: flex;
-    border: 3px solid green;
 }
 
 .mapItem {
     flex-grow: 1;
-    border: 3px solid blue;
 }
 
 body {
