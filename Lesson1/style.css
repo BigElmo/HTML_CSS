@@ -194,6 +194,15 @@
     margin-bottom: 32px;
 }
 
+.footer_text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;    
+    letter-spacing: 0.05em;    
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
 .lets_talk {
     font-weight: normal;
     font-size: 16px;
