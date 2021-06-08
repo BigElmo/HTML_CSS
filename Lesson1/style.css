@@ -341,3 +341,21 @@ body {
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
+@media (max-width: 375px) {
+    .headerItem {
+        background-image: none;
+    }
+
+    .welcome_h1 {
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        margin-bottom: 23px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 376px) {
+    .headerItem {
+    }
+}
