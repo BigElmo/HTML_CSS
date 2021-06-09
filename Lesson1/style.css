@@ -170,9 +170,10 @@
 }
 
 .footer {
-    height: 657px;
+    /* height: 657px; */
     background: #316099;
     padding-top: 91px;
+    padding-bottom: 64px;
 }
 
 .promotion_block {
@@ -236,7 +237,6 @@
 .footerItem {
     display: flex;
     justify-content: space-between;
-
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;    
@@ -349,11 +349,31 @@ body {
     }
     .headerItem {
         background-size: 45%;
-        background-position: right 250px;
+        background-position: right bottom;
     }
     .careerBlock {
         flex-direction: column;
         align-items: center;
+    }
+    .careerItem {
+        margin-bottom: 32px;
+    }
+    .footer {
+        padding-top: 47px;
+    }
+    .lets_talk {
+        padding: 0 10px;
+    }
+    .promotion_block {
+        padding-left: 124px;
+        padding-right: 124px;
+    }
+    .footer_block {
+        padding-left: 124px;
+        padding-right: 124px;
+    }
+    .footerItem {
+        flex-direction: column;
     }
 }
 
@@ -388,5 +408,84 @@ body {
     .main_header {
         min-height: 376px;
         padding-bottom: 41px;
+    }
+    .career_heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .career {
+        padding-top: 48px;
+    }
+    .careerBlock {
+        padding-top: 32px;
+        padding-bottom: 0;
+    }
+    .hobby_heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .hobby_text {
+        margin-bottom: 82px;
+        width: 100%;
+    }
+    .item1_text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+    .item2_text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        left: 16px;
+    }
+    .hobby_block {
+        flex-direction: column;
+        margin-top: 16px;
+        margin-bottom: 64px;
+    }
+    .hobby_item_margin {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    .footer {
+        padding-top: 18px;
+        padding-bottom: 32px;
+    }
+    .promotionHeader {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+    }
+    .promotion_block {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .footer_text {
+        text-align: center;
+    }
+    .lets_talk {
+        margin-top: 40px;
+    }
+    .promotionItem {
+        width: 100%;
+    }
+    .footer_hr {
+        margin-top: 41px;
+        margin-bottom: 32px;
+    }
+    .footer_block {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .footerItem {
+        margin-bottom: 37px;
     }
 }
