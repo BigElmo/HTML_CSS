@@ -343,8 +343,13 @@ body {
 }
 
 @media (max-width: 375px) {
+    .main_header {
+        height: 376px;
+    }
+
     .headerItem {
         background-image: none;
+        padding: 36px 16px;
     }
 
     .welcome_h1 {
@@ -352,10 +357,26 @@ body {
         line-height: 37px;
         text-align: center;
         margin-bottom: 23px;
+        width: 100%;
+    }
+
+    .headerMenu {
+        padding: 21px 16px;
+    }
+
+    .welcomeText {
+        width: 100%;
+    }
+
+    .top_button {
+        font-size: 12px;
+        line-height: 26px;
+        margin-top: 32px;
+        padding: 5px 10px;
     }
 }
 
-@media (max-width: 768px) and (min-width: 376px) {
+/* @media (max-width: 768px) and (min-width: 376px) {
     .headerItem {
     }
-}
+} */
