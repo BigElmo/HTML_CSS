@@ -351,9 +351,13 @@ body {
         background-size: 45%;
         background-position: right 250px;
     }
+    .careerBlock {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-@media (max-width: 812px) {
+@media (max-width: 736px) {
     .welcome_h1 {
         width: 100%;
         font-size: 32px;
